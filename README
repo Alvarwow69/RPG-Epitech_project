@@ -1,0 +1,33 @@
+Content of the rpg's project:
+
+Creation of an engine that allow:
+    -Create, load and unload scene.
+    -Create gameObject, a gameObject can be:
+        -Button
+        -Block
+        -Text
+        -Player
+        -Mob
+        -Image
+    -Create node.
+
+    All of these gamObject is modular and we can create the gameObject we want with
+custom properties.
+
+    For the button we can change the scale, sprite, three sprites for each state,
+the action, the text inside the button, the position, a help box, the layer. That's
+the same function, but according to the type of the gameObject for the all other
+gameObject.
+
+    For the node we can change his position, rotation, scale. we can assign several
+gameObject.
+
+Our engine has multi-thread to load the game.
+
+We have a little physique engine, for the player and dropping bloc.
+
+There is water physique, basic but it's look like water.
+
+A full option volume, and we can change the control.
+
+An advanced collision system with shape.
